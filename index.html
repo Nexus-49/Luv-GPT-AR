@@ -66,7 +66,7 @@
     </div>
     <script src="arcamera.js" type="text/javascript"></script>
     <script src="wtracker.js" type="text/javascript"></script>
-    <script src="Build/495f13738f3b83bcd162bc3e5d7a23ef.loader.js"></script>
+    <script src="Build/3c76dfeac6801b3d24a1359fa22b0d10.loader.js"></script>
     <script>
         var initialize = async() =>{
             var unityCanvas = document.querySelector("#unity-canvas");
@@ -100,9 +100,9 @@
             
             document.getElementById('startARDiv').style.display = 'none';
             createUnityInstance(document.querySelector("#unity-canvas"), {
-                    dataUrl: "Build/c7fc4eec7eed1c15489f295f10c6c8bf.data",
+                    dataUrl: "Build/69557a264636747f71d6db55c3430143.data",
                     frameworkUrl: "Build/f991b356b0add84f31c8fd8dd82269f0.framework.js",
-                    codeUrl: "Build/a1dcfdac3c9fce31f504feedcb92b78b.wasm",
+                    codeUrl: "Build/67c85157a7c894e1a1509f2a9fcdf92c.wasm",
                     streamingAssetsUrl: "StreamingAssets",
                     companyName: "DefaultCompany",
                     productName: "Luv Gpt Webgl",
@@ -211,7 +211,7 @@
                 }
             });
             var select = document.getElementById("chooseCamSel");
-            select.style.display = "block";
+            select.style.display = "none";
             var count = 0;
             //reverse array because some Android phones can't distinguish front and back cams at first load
             //and when this happens, most of the time, front cam goes first and back cam goes last
